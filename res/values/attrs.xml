@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<!--请参阅
+	[android_sdk]\platforms\android-n\data\res\values\attrs.xml
+	-->
+	<declare-styleable name="porterduff.PorterDuffView">
+		<attr name="porterduffMode" format="boolean"></attr>
+		<attr name="one" format="boolean"></attr>
+	</declare-styleable>
+</resources>

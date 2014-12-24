@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/edT1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="13627213687"
+        android:hint="手机账号" />
+
+    <EditText
+        android:id="@+id/edT2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:visibility="gone"
+        android:hint="第三方支付账单号"  />
+
+    <EditText
+        android:id="@+id/edT3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:textColor="@android:color/black"
+        android:text="0.01"
+        android:hint="支付金额"
+         />
+
+    <EditText
+        android:id="@+id/edT4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="张三"
+        android:hint="客户名" />
+
+    <EditText
+        android:id="@+id/edT5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="湖北"
+        android:hint="区域名" />
+    
+	<Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="检查插件" />
+</LinearLayout>
