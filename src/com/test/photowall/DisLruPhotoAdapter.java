@@ -63,6 +63,7 @@ public class DisLruPhotoAdapter extends ArrayAdapter<String> {
 	
 	public DisLruPhotoAdapter(Context context, int textViewResourceId, String[] objects,GridView photoWall) {
 		super(context, textViewResourceId, objects);
+		
 		 mPhotoWall = photoWall;  
 		 taskCollection = new HashSet<BitmapWorkerTask>();  
 		// 获取应用程序最大可用内存  
@@ -288,6 +289,7 @@ public class DisLruPhotoAdapter extends ArrayAdapter<String> {
                     try {  
                         fileInputStream.close();  
                     } catch (IOException e) {  
+                    	e.printStackTrace();
                     }  
                 }  
             }  

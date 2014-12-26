@@ -117,7 +117,7 @@ public class CachePhotoAdapter extends BaseAdapter  implements OnScrollListener{
 
 	@Override
 	public void onScrollStateChanged(AbsListView view, int scrollState) {
-		if(scrollState == SCROLL_STATE_IDLE)
+		if(scrollState == SCROLL_STATE_IDLE)//未滚动
 		{
 			loadBitmaps(mFirstVisibleItem, mVisibleItemCount);  
 		}else {
