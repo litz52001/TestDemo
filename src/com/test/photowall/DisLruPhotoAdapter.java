@@ -36,7 +36,7 @@ import com.test.R;
 
 /**
  * 使用LruCache 和  DisLruCache缓存
- * @author Administrator
+ * @author litz 
  *
  */
 public class DisLruPhotoAdapter extends ArrayAdapter<String> {
